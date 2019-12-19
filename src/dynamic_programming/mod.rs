@@ -1,5 +1,10 @@
 mod egg_dropping;
 mod fibonacci;
+mod longest_increasing_subsequence;
 
 pub use self::egg_dropping::egg_drop;
 pub use self::fibonacci::fibonacci;
+pub use self::longest_increasing_subsequence::{
+    longest_increasing_subsequence, longest_increasing_subsequence_by,
+    longest_strictly_increasing_subsequence,
+};
