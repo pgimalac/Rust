@@ -1,12 +1,12 @@
-pub fn longest_increasing_subsequence<T: PartialOrd + Copy>(list: &Vec<T>) -> Vec<T> {
+pub fn longest_increasing_subsequence<T: PartialOrd + Copy>(list: &[T]) -> Vec<T> {
     longest_increasing_subsequence_by(list, |a, b| a <= b)
 }
 
-pub fn longest_strictly_increasing_subsequence<T: PartialOrd + Copy>(list: &Vec<T>) -> Vec<T> {
+pub fn longest_strictly_increasing_subsequence<T: PartialOrd + Copy>(list: &[T]) -> Vec<T> {
     longest_increasing_subsequence_by(list, |a, b| a < b)
 }
 
-pub fn longest_increasing_subsequence_by<T: Copy, F>(list: &Vec<T>, comp: F) -> Vec<T>
+pub fn longest_increasing_subsequence_by<T: Copy, F>(list: &[T], comp: F) -> Vec<T>
 where
     F: Fn(&T, &T) -> bool,
 {
@@ -20,7 +20,7 @@ where
             let mut lower = 0usize;
             let mut upper = subseq.len();
             while lower != upper {
-                let middle = lower + upper >> 1;
+                let middle = (lower + upper) >> 1;
                 if comp(&&subseq[middle], i) {
                     lower = middle + 1;
                 } else {
@@ -32,7 +32,7 @@ where
             subseq.push(*i);
         }
     }
-    return subseq;
+    subseq
 }
 
 #[cfg(test)]
