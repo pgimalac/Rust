@@ -28,7 +28,7 @@ These are for demonstration purposes only.
 
 - 0-1 Knapsack _(Not implemented yet)_
 - Longest common subsequence _(Not implemented yet)_
-- Longest increasing subsequence _(Not implemented yet)_
+- [Longest increasing subsequence](./src/dynamic_programming/longest_increasing_subsequence.rs)_
 - [K-Means Clustering](./src/general/kmeans.rs)
 - Coin Change _(Not implemented yet)_
 - Rod cut _(Not implemented yet)_
