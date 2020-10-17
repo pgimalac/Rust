@@ -10,7 +10,7 @@ These are for demonstration purposes only.
 - [Counting](./src/sorting/counting_sort.rs)
 - [Heap](./src/sorting/heap_sort.rs)
 - [Insertion](./src/sorting/insertion_sort.rs)
-- Merge _(Not implemented yet)_
+- [Merge](./src/sorting/merge_sort.rs)
 - [Quick](./src/sorting/quick_sort.rs)
 - Radix _(Not implemented yet)_
 - [Selection](./src/sorting/selection_sort.rs)
@@ -27,8 +27,9 @@ These are for demonstration purposes only.
 ## [Dynamic Programming](./src/general)
 
 - 0-1 Knapsack _(Not implemented yet)_
-- Longest common subsequence _(Not implemented yet)_
 - [Longest increasing subsequence](./src/dynamic_programming/longest_increasing_subsequence.rs)_
+- [Edit Distance](./src/dynamic_programming/edit_distance.rs)
+- [Longest common subsequence](./src/dynamic_programming/longest_common_subsequence.rs)
 - [K-Means Clustering](./src/general/kmeans.rs)
 - Coin Change _(Not implemented yet)_
 - Rod cut _(Not implemented yet)_
@@ -37,19 +38,19 @@ These are for demonstration purposes only.
 ## Data Structures
 
 - Queue _(Not implemented yet)_
-- [Heap](.src/data_structures/heap.rs)
-- Linked List _(Not implemented yet)_
+- [Heap](./src/data_structures/heap.rs)
+- [Linked List](./src/data_structures/linked_list.rs)
 - Graph _(Not implemented yet)_
   - Directed _(Not implemented yet)_
   - Undirected _(Not implemented yet)_
 - Trie _(Not implemented yet)_
-- Binary Tree _(Not implemented yet)_
+- [Binary Search Tree](./src/data_structures/binary_search_tree.rs)
 - [B-Tree](./src/data_structures/b_tree.rs)
 - AVL Tree _(Not implemented yet)_
 
 ## Strings
 
-- Knuth Morris Pratt _(Not implemented yet)_
+- [Knuth Morris Pratt](./src/string/knuth_morris_pratt.rs)
 - Rabin Carp _(Not implemented yet)_
 
 ## General
@@ -57,7 +58,7 @@ These are for demonstration purposes only.
 - [Convex Hull: Graham Scan](./src/general/convex_hull.rs)
 - N-Queensp _(Not implemented yet)_
 - Graph Coloringp _(Not implemented yet)_
-- Tower of Hanoip _(Not implemented yet)_
+- [Tower of Hanoi](./src/general/hanoi.rs)
 
 ## [Search Algorithms](./src/searching)
 
