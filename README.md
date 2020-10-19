@@ -20,7 +20,7 @@ These are for demonstration purposes only.
 
 - Dijkstra _(Not implemented yet)_
 - Kruskal's Minimum Spanning Tree _(Not implemented yet)_
-- Prim's Minimum Spanning Tree _(Not implemented yet)_
+- [Prim's Minimum Spanning Tree](./src/graph/prim.rs)
 - BFS _(Not implemented yet)_
 - DFS  _(Not implemented yet)_
 
