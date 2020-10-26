@@ -64,6 +64,7 @@ These are for demonstration purposes only.
 
 - [Linear](./src/searching/linear_search.rs)
 - [Binary](./src/searching/binary_search.rs)
+- [Closest pair of 2D points](./src/searching/closest_points.rs)
 
 ## [Ciphers](./src/ciphers)
 
